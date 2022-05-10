@@ -1,13 +1,9 @@
-<?php
-session_start();
-include_once 'connection.php';
-?>
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
 
-<!-- Mirrored from min-plant-store-demo.myshopify.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jul 2021 09:31:35 GMT -->
+<!-- Mirrored from min-plant-store-demo.myshopify.com/account/register by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jul 2021 09:45:35 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 
@@ -17,7 +13,7 @@ include_once 'connection.php';
 
   <!-- Title and description ================================================== -->
   <title>
-    Flourish - MultiPurpose Plant Store
+    Create Account &ndash; Minplant - MultiPurpose Plant Store Shopify Theme
   </title>
 
   
@@ -27,29 +23,29 @@ include_once 'connection.php';
 
 
 
-<link rel="shortcut icon" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/favicon6506.png?v=1644210159590862765" type="image/png" />
+<link rel="shortcut icon" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/favicon6506.png?v=1644210159590862765" type="image/png" />
 
-<link rel="apple-touch-icon-precomposed" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile24f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_57x5724f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_60x6024f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_72x7224f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_76x7624f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_114x11424f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_120x12024f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_144x14424f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_152x15224f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile24f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_57x5724f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_60x6024f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_72x7224f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_76x7624f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_114x11424f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_120x12024f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_144x14424f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_152x15224f3.png?v=12793611169492794772" />
 
 
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Minplant - MultiPurpose Plant Store Shopify Theme">
+  <meta property="og:title" content="Create Account">
   
-  <meta property="og:image" content="../cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/logo931a.html?2108">
-  <meta property="og:image:secure_url" content="../cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/logo931a.html?2108">
+  <meta property="og:image" content="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/logo931a.html?2108">
+  <meta property="og:image:secure_url" content="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/logo931a.html?2108">
   
 
 
-  <meta property="og:url" content="index.html">
+  <meta property="og:url" content="register.html">
   <meta property="og:site_name" content="Minplant - MultiPurpose Plant Store Shopify Theme">
 
 
@@ -59,10 +55,10 @@ include_once 'connection.php';
 <meta name="twitter:card" content="summary">
 
 
-  <link rel="canonical" href="index.html">
+  <link rel="canonical" href="register.html">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#7fc9c4">
-  <link rel="icon" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/favicon6506.png?v=1644210159590862765" type="image/png" sizes="16x16">
+  <link rel="icon" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/favicon6506.png?v=1644210159590862765" type="image/png" sizes="16x16">
 
   <!-- font -->
   
@@ -115,32 +111,32 @@ include_once 'connection.php';
 
   <!-- CSS ================================================== -->
   
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/timber.scss4d3c.css?v=5070577340983864831" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/timber.scss35d4.css?v=7140602358447186243" rel="stylesheet" type="text/css" media="all" />
   
   
 
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/bootstrap.min0d61.css?v=12128791072025208527" rel="stylesheet" type="text/css" media="all" />
-    <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/themify-icons40bc.css?v=1782837867860931872" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/font-awesome.minaee4.css?v=2186963269736709578" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/iconnamee630.css?v=3639235493546549349" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/slick97ee.css?v=9834047404617688405" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/slick-themea330.css?v=2659259180337512662" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/jquery.fancybox.min1a36.css?v=5567558441353799884" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/threesixty9607.css?v=7075129687514529950" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/style-main.scss3c24.css?v=15158094319101616344" rel="stylesheet" type="text/css" media="all" />
-  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/engo-customize.scss3e0d.css?v=8798334838450978728" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/bootstrap.min0d61.css?v=12128791072025208527" rel="stylesheet" type="text/css" media="all" />
+    <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/themify-icons40bc.css?v=1782837867860931872" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/font-awesome.minaee4.css?v=2186963269736709578" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/iconnamee630.css?v=3639235493546549349" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/slick97ee.css?v=9834047404617688405" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/slick-themea330.css?v=2659259180337512662" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/jquery.fancybox.min1a36.css?v=5567558441353799884" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/threesixty9607.css?v=7075129687514529950" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/style-main.scss3c24.css?v=15158094319101616344" rel="stylesheet" type="text/css" media="all" />
+  <link href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/engo-customize.scss3e0d.css?v=8798334838450978728" rel="stylesheet" type="text/css" media="all" />
 
   <!-- Header hook for plugins ================================================== -->
   <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/31706873992/digital_wallets/dialog">
 <link href="https://monorail-edge.shopifysvc.com/" rel="dns-prefetch">
 <script id="shopify-features" type="application/json">{"accessToken":"7df4b16777506cca6a329c440bb37685","betas":["rich-media-storefront-analytics"],"domain":"min-plant-store-demo.myshopify.com","predictiveSearch":true,"shopId":31706873992,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js","locale":"en"}</script>
-<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 31706873992,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 31706873992,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "customers/register"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
 <script>var Shopify = Shopify || {};
 Shopify.shop = "min-plant-store-demo.myshopify.com";
 Shopify.locale = "en";
 Shopify.currency = {"active":"USD","rate":"1.0"};
 Shopify.country = "US";
-Shopify.theme = {"name":"Minplant-home1","id":86157459592,"theme_store_id":null,"role":"main"};
+Shopify.theme = {"name":"Minplant-home2","id":86957588616,"theme_store_id":null,"role":"unpublished"};
 Shopify.theme.handle = "null";
 Shopify.theme.style = {"id":null,"handle":null};
 Shopify.cdnHost = "cdn.shopify.com";</script>
@@ -164,12 +160,12 @@ Shopify.cdnHost = "cdn.shopify.com";</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":31706873992,"offset":-14400,"reqid":"14bcd299-ed1e-4412-b2bb-6da95e21f9de","pageurl":"min-plant-store-demo.myshopify.com\/","u":"2cb71d2c2552","p":"home"};</script>
+<script id="__st">var __st={"a":31706873992,"offset":-14400,"reqid":"6f920528-2d94-4518-96f3-05559ec43de7","pageurl":"min-plant-store-demo.myshopify.com\/account\/register","u":"650438784b55"};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
 window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
 window.ShopifyAnalytics.meta.currency = 'USD';
-var meta = {"page":{"pageType":"home"},"evids":{"pv":"Page View","vprd":"Viewed Product","ps":"Performed Search"}};
+var meta = {"page":{},"evids":{"pv":"Page View","vprd":"Viewed Product","ps":"Performed Search"}};
 for (var attr in meta) {
   window.ShopifyAnalytics.meta[attr] = meta[attr];
 }</script>
@@ -286,22 +282,22 @@ for (var attr in meta) {
     Monorail.produce('monorail-edge.shopifysvc.com',
       'trekkie_storefront_load_errors/1.1',
       {shop_id: 31706873992,
-      theme_id: 86157459592,
+      theme_id: 86957588616,
       app_name: "storefront",
       context_url: window.location.href,
       source_url: "https://cdn.shopify.com/s/trekkie.storefront.9cc9f4b8784af290b75004a539f5efd337dba5d8.min.js"});
 
       };
       scriptFallback.async = true;
-      scriptFallback.src = '../cdn.shopify.com/s/trekkie.storefront.9cc9f4b8784af290b75004a539f5efd337dba5d8.min.js';
+      scriptFallback.src = 'cdn.shopify.com/s/trekkie.storefront.9cc9f4b8784af290b75004a539f5efd337dba5d8.min.js';
       first.parentNode.insertBefore(scriptFallback, first);
     };
     script.async = true;
-    script.src = '../cdn.shopify.com/s/trekkie.storefront.9cc9f4b8784af290b75004a539f5efd337dba5d8.min.js';
+    script.src = 'cdn.shopify.com/s/trekkie.storefront.9cc9f4b8784af290b75004a539f5efd337dba5d8.min.js';
     first.parentNode.insertBefore(script, first);
   };
   trekkie.load(
-    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":31706873992,"isMerchantRequest":null,"themeId":86157459592,"themeCityHash":"2006817931762880754","contentLanguage":"en","currency":"USD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":31706873992,"isMerchantRequest":null,"themeId":86957588616,"themeCityHash":"2006817931762880754","contentLanguage":"en","currency":"USD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
   );
 
   var loaded = false;
@@ -328,9 +324,9 @@ for (var attr in meta) {
         window.BOOMR.themeName = "Minplant";
         window.BOOMR.themeVersion = "1.0.0";
         window.BOOMR.shopId = 31706873992;
-        window.BOOMR.themeId = 86157459592;
+        window.BOOMR.themeId = 86957588616;
         window.BOOMR.url =
-          "../cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+          "cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
         var where = document.currentScript || document.getElementsByTagName("script")[0];
         var parentNode = where.parentNode;
         var promoted = false;
@@ -463,7 +459,7 @@ for (var attr in meta) {
       })();
     
 
-    window.ShopifyAnalytics.lib.page(null,{"pageType":"home"});
+    window.ShopifyAnalytics.lib.page(null,{});
 
     var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
     var token = match? match[1]: undefined;
@@ -476,15 +472,26 @@ for (var attr in meta) {
   
       var eventsListenerScript = document.createElement('script');
       eventsListenerScript.async = true;
-      eventsListenerScript.src = "../cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-eb19870e6f215e4e4acd8067d24ecfcbfee2d96d96aa8607e8fd45edf40eacc6.js";
+      eventsListenerScript.src = "cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-eb19870e6f215e4e4acd8067d24ecfcbfee2d96d96aa8607e8fd45edf40eacc6.js";
       document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
     
 })();</script>
-<script>!function(e){e.addEventListener("DOMContentLoaded",function(){var t=['form[action^="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action^="/account"] input[name="form_type"][value="customer_login"]','form[action^="/account"] input[name="form_type"][value="recover_customer_password"]','form[action^="/account"] input[name="form_type"][value="create_customer"]'].join(",");null!==e.querySelector(t)&&(window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"},(t=e.createElement("script")).setAttribute("src","../cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.5/index.js"),e.body.appendChild(t))})}(document);</script>
+<script>!function(e){e.addEventListener("DOMContentLoaded",function(){var t=['form[action^="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action^="/account"] input[name="form_type"][value="customer_login"]','form[action^="/account"] input[name="form_type"][value="recover_customer_password"]','form[action^="/account"] input[name="form_type"][value="create_customer"]'].join(",");null!==e.querySelector(t)&&(window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"},(t=e.createElement("script")).setAttribute("src","cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.5/index.js"),e.body.appendChild(t))})}(document);</script>
+<script>document.addEventListener('DOMContentLoaded', function() {
+  const previewBarInjector = new Shopify.PreviewBarInjector({
+    targetNode: document.body,
+    iframeRoot: 'https://min-plant-store-demo.myshopify.com',
+    iframeSrc: 'https://min-plant-store-demo.myshopify.com/preview_bar',
+    previewToken: '97xlz939vcvr11j0',
+    themeStoreId: '',
+    permanentDomain: 'min-plant-store-demo.myshopify.com',
+  });
+  previewBarInjector.init();
+});</script>
 <script integrity="sha256-pVJhp6mHZ0dJmJmDtYierarGeV2NSFSPthRwqW7blSQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a987674749989983b5889eadaac6795d8d48548fb61470a96edb9524.js" crossorigin="anonymous"></script>
 <script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" media="screen" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/compiled_assets/styles931a.css?2108">
-<script id="sections-script" data-sections="section-slideshow-v1,section-banner-v4,section-blog-v4,section-newsletter-v1" defer="defer" src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/compiled_assets/scripts931a.js?2108"></script>
+<script integrity="sha256-HjpxOt032ssmooRgVOW/c8loNAwGy026qLmF3OAx9M0=" defer="defer" src="cdn.shopify.com/shopifycloud/shopify/assets/storefront/bars/preview_bar_injector-1e3a713add37dacb26a2846054e5bf73c968340c06cb4dbaa8b985dce031f4cd.js" crossorigin="anonymous"></script>
+
 
 <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
   <!-- /snippets/oldIE-js.liquid -->
@@ -492,8 +499,8 @@ for (var attr in meta) {
 
 <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
-<script src="//cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/respond.min.js?2108" type="text/javascript"></script>
-<link href="//cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<script src="//cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/respond.min.js?2108" type="text/javascript"></script>
+<link href="//cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
 <link href="//min-plant-store-demo.myshopify.com/search?q=182b506f38d8b27ae77e11f31d97ccd5" id="respond-redirect" rel="respond-redirect" />
 <script src="//min-plant-store-demo.myshopify.com/search?q=182b506f38d8b27ae77e11f31d97ccd5" type="text/javascript"></script>
 <![endif]-->
@@ -502,7 +509,7 @@ for (var attr in meta) {
 
   <script src="ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
   <script src="cdn.shopify.com/shopifycloud/shopify/assets/themes_support/api.jquery-e94e010e92e659b566dbc436fdfe5242764380e00398907a14955ba301a4749f.js" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/modernizr-2.8.3.min3774.js?v=17472752542221191523" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/modernizr-2.8.3.min3774.js?v=17472752542221191523" type="text/javascript"></script>
   <script src="cdn.shopify.com/shopifycloud/shopify/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js" type="text/javascript"></script>
 
 
@@ -511,7 +518,7 @@ for (var attr in meta) {
     window.money_format = '${{amount}} USD';
     window.shop_currency = 'USD';
     window.show_multiple_currencies = true;
-    window.loading_url = "../cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/loader3389.gif?v=907687498819134704";
+    window.loading_url = "cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/loader3389.gif?v=907687498819134704";
     window.use_color_swatch = true;
     window.product_image_resize = true;
     window.enable_sidebar_multiple_choice = true;
@@ -541,34 +548,36 @@ for (var attr in meta) {
 
   
   
+  <script src="cdn.shopify.com/shopifycloud/shopify/assets/themes_support/shopify_common-8ea6ac3faf357236a97f5de749df4da6e8436ca107bc3a4ee805cbf08bc47392.js" type="text/javascript"></script>
+  
 
   <!-- /snippets/social-meta-tags.liquid -->
 
 
 
-<link rel="shortcut icon" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/favicon6506.png?v=1644210159590862765" type="image/png" />
+<link rel="shortcut icon" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/favicon6506.png?v=1644210159590862765" type="image/png" />
 
-<link rel="apple-touch-icon-precomposed" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile24f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_57x5724f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_60x6024f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_72x7224f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_76x7624f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_114x11424f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_120x12024f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_144x14424f3.png?v=12793611169492794772" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/icon-for-mobile_152x15224f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile24f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_57x5724f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_60x6024f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_72x7224f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_76x7624f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_114x11424f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_120x12024f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_144x14424f3.png?v=12793611169492794772" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/icon-for-mobile_152x15224f3.png?v=12793611169492794772" />
 
 
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Minplant - MultiPurpose Plant Store Shopify Theme">
+  <meta property="og:title" content="Create Account">
   
-  <meta property="og:image" content="http://cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/logo.png?2108">
-  <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/logo.png?2108">
+  <meta property="og:image" content="http://cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/logo.png?2108">
+  <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/logo.png?2108">
   
 
 
-  <meta property="og:url" content="https://min-plant-store-demo.myshopify.com/">
+  <meta property="og:url" content="https://min-plant-store-demo.myshopify.com/account/register">
   <meta property="og:site_name" content="Minplant - MultiPurpose Plant Store Shopify Theme">
 
 
@@ -581,7 +590,7 @@ for (var attr in meta) {
 
 </head>
 
-<body class="preload push_filter_left" style="background: #ffffff;">
+<body class="preload push_filter_left" >
   
    <div class="wrap">
     <div class="contentbody">
@@ -591,13 +600,13 @@ for (var attr in meta) {
 
 
   
-  <header id="header" class="header-v1-h1 js_height_hd jsheader1 d-none d-xl-block header-absolute ">
+    <header id="header" class="header-v1-h1 js_height_hd jsheader1 d-none d-xl-block header-absolute ">
   <div class="container container-v1">
     <div class="row align-items-center">
       <div class="col-lg-2">
         <div class="logo">
           <div class="center logo delay05">          	
-              <a href="adminHome.php">
+              <a href="index.php">
                   <img src="cdn.shopify.com/s/files/1/0317/0687/3992/files/logo301b.png?v=1580895601" width="160" alt="Minplant - MultiPurpose Plant Store Shopify Theme">
               </a>
           </div>
@@ -607,27 +616,11 @@ for (var attr in meta) {
         <div class="menu right">
 			<nav class="navbar navbar-expand-lg navbar-light p-0 text-center justify-content-between">
   <div class="collapse navbar-collapse">
-  <ul class="navbar-nav">
-    <li class="nav-item dropdown">
-        <a href="adminHome.php" class="delay03 relative nav-link menu_lv1 ">Home</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a href="delivery-team.php"  class="delay03  relative nav-link menu_lv1 ">Delivery Team</a>
-    </li>
-    
-    <li class="nav-item dropdown">
-        <a href="category.php"  class="delay03 relative  nav-link menu_lv1 ">Category</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a href="plants.php"  class="delay03 relative  nav-link menu_lv1 ">Plants</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a href="reports.php"  class="delay03 relative  nav-link menu_lv1 ">Report</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a href="logout.php"  class="delay03 relative  nav-link menu_lv1 ">Logout</a>
-    </li>
-  </ul>
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <a href="index.php" title="Home" class="delay03 relative nav-link menu_lv1 ">Home</a>
+        </li>
+    </ul>
   </div>
 </nav>
         </div>
@@ -636,8 +629,8 @@ for (var attr in meta) {
         <div class="cart-login-search align-items-center"> 
           <ul class="list-inline list-unstyled mb-0">
             <li class="list-inline-item mr-0">
-              <a>
-                  ADMIN
+              <a href="javascript:void(0)" class="login js-call-popup-login">
+                  LOGIN
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
 <g>
 	<g>
@@ -692,9 +685,6 @@ for (var attr in meta) {
 </header>
 
 <style>
-  .header-v1-h1{
-    background-color : rgba(0,0,0,0);
-  }
   #header .menu ul li .nav-link{
     color: #000000;
   }
@@ -706,16 +696,53 @@ for (var attr in meta) {
     border-top: 2px solid #000000;
     border-left: 2px solid #000000;
   }
-  
-  #header .currencies-login .cart-login-search ul li a svg{
-  	fill : #000000;
-  }
 
+  #header .currencies-login .cart-login-search ul li a svg{
+    fill : #000000;
+  }
   #header .currencies-login .cart-login-search ul li .cart .number-cart{
-  	color : #000000;
+    color : #000000;
   }
 </style>
-        
+  
+
+
+
+</div>
+    
+    <!-- HEADING HIDDEN SEO -->
+    
+
+      <div class="search-full-destop">
+  <div class="search-eveland js-box-search">
+    <h3 class="drawer-search-title">Start typing and hit Enter</h3>
+    <form class="wg-search-form" action="https://min-plant-store-demo.myshopify.com/search">
+      <input type="hidden" name="type" value="product">
+      <input type="text" name="q" placeholder="Search anything" class="search-input">
+      <button type="submit"><i class="icon-icon-search"></i></button>
+    </form>
+    <div class="drawer_back">
+      <a href="javascript:void(0)" class="close-search js-drawer-close">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             width="12px" height="12px" viewBox="0 0 12 12" enable-background="new 0 0 12 12" xml:space="preserve">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.437,12c-0.014-0.017-0.026-0.035-0.042-0.051
+                                                           c-1.78-1.78-3.562-3.561-5.342-5.342c-0.016-0.016-0.028-0.034-0.07-0.064c-0.01,0.02-0.016,0.045-0.031,0.06
+                                                           c-1.783,1.784-3.566,3.567-5.35,5.352C0.587,11.968,0.576,11.984,0.563,12c-0.004,0-0.008,0-0.013,0
+                                                           C0.367,11.816,0.184,11.633,0,11.449c0-0.004,0-0.009,0-0.013c0.017-0.014,0.035-0.026,0.051-0.041
+                                                           c1.781-1.781,3.562-3.562,5.342-5.342c0.017-0.016,0.036-0.027,0.06-0.044c-0.025-0.026-0.04-0.043-0.056-0.058
+                                                           C3.613,4.168,1.83,2.385,0.046,0.601C0.032,0.587,0.016,0.576,0,0.563c0-0.004,0-0.008,0-0.013C0.184,0.367,0.367,0.184,0.551,0
+                                                           c0.004,0,0.008,0,0.013,0C0.578,0.017,0.59,0.035,0.606,0.05c1.78,1.781,3.561,3.562,5.341,5.342
+                                                           c0.016,0.016,0.027,0.035,0.045,0.059c0.025-0.024,0.041-0.039,0.057-0.054c1.783-1.784,3.566-3.567,5.35-5.351
+                                                           C11.413,0.032,11.424,0.016,11.437,0c0.004,0,0.009,0,0.013,0C11.633,0.184,11.816,0.367,12,0.551c0,0.004,0,0.008,0,0.013
+                                                           c-0.017,0.014-0.035,0.027-0.051,0.042c-1.78,1.78-3.561,3.561-5.342,5.341c-0.016,0.016-0.035,0.026-0.054,0.04
+                                                           c-0.004,0.01-0.007,0.021-0.011,0.03c0.021,0.01,0.045,0.017,0.06,0.031c1.784,1.783,3.567,3.566,5.352,5.35
+                                                           c0.014,0.014,0.03,0.025,0.046,0.038c0,0.004,0,0.009,0,0.013c-0.184,0.184-0.367,0.367-0.551,0.551C11.445,12,11.44,12,11.437,12z"
+                />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
       <div class="js-minicart minicart" >
   <div class="relative" style="height: 100%;">
   	<div class="mini-content ">    
@@ -753,7 +780,7 @@ for (var attr in meta) {
   <div class="logo_menumoblie">
 
               	
-    <a href="index.php">
+    <a href="min-plant-store-demo.myshopify.com/index.html">
       
       <img src="cdn.shopify.com/s/files/1/0317/0687/3992/files/logo301b.png?v=1580895601" width="135" alt="logo">
       
@@ -896,7 +923,7 @@ for (var attr in meta) {
 
         <div class="menu-horizon-list">
           
-          <a href="index.html" title="Home" class="relative nammenu ">Home</a>
+          <a href="min-plant-store-demo.myshopify.com/index.html" title="Home" class="relative nammenu ">Home</a>
           
 
           <a href="#c1" class="toggle-menumobile collapsed js_icon_horizon-menu" data-toggle="collapse" aria-expanded="false">
@@ -959,7 +986,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">Shop Filter</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">Shop Filter</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -994,7 +1021,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">Shop Layout</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">Shop Layout</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -1066,7 +1093,7 @@ for (var attr in meta) {
 
         <div class="menu-horizon-list">
           
-<a href="index.html" title="Featured" class="relative nammenu ">Featured
+<a href="min-plant-store-demo.myshopify.com/index.html" title="Featured" class="relative nammenu ">Featured
             <span class="absolute label_menu label_menu-featurednew-518432-3" style="background-color: #518432;"><span>new</span></span>
             <style>
               .label_menu-featurednew-518432-3:before {
@@ -1084,7 +1111,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">BLOG LAYOUTS</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">BLOG LAYOUTS</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -1154,7 +1181,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">Product Layout</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">Product Layout</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -1217,7 +1244,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">PRODUCT TYPES</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">PRODUCT TYPES</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -1294,7 +1321,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">Single Post</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">Single Post</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -1337,37 +1364,37 @@ for (var attr in meta) {
         
 
         <div class="menu-horizon-list">
-
-          <a href="index.html" title="Pages" class="relative nammenu ">Pages</a>
-
+          
+          <a href="min-plant-store-demo.myshopify.com/index.html" title="Pages" class="relative nammenu ">Pages</a>
+          
 
           <a href="#c4" class="toggle-menumobile collapsed js_icon_horizon-menu" data-toggle="collapse" aria-expanded="false">
             <i class="fa fa-angle-right"></i>
           </a>
           <div id="c4" class="collapse " >
-
-
-
+            
+            
+            
             <h2 class="title_menu_mb title_only_one"><a href="min-plant-store-demo.myshopify.com/pages/about-us.html">About Us</a></h2>
-
-
-
-
+            
+            
+            
+            
             <h2 class="title_menu_mb title_only_one"><a href="min-plant-store-demo.myshopify.com/pages/contact.html">Contact</a></h2>
-
-
-
-
+            
+            
+            
+            
             <h2 class="title_menu_mb title_only_one"><a href="min-plant-store-demo.myshopify.com/pages/wishlist.html">Wishlist</a></h2>
-
-
-
-
+            
+            
+            
+            
             <h2 class="title_menu_mb title_only_one"><a href="min-plant-store-demo.myshopify.com/404.html">404</a></h2>
-
-
+            
+            
           </div>
-
+          
         </div>
         
             
@@ -1378,7 +1405,7 @@ for (var attr in meta) {
 
         <div class="menu-horizon-list">
           
-<a href="index.html" title="Element" class="relative nammenu ">Element
+<a href="min-plant-store-demo.myshopify.com/index.html" title="Element" class="relative nammenu ">Element
             <span class="absolute label_menu label_menu-elementnew-518432-5" style="background-color: #518432;"><span>new</span></span>
             <style>
               .label_menu-elementnew-518432-5:before {
@@ -1396,7 +1423,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">Main Style</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">Main Style</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -1407,35 +1434,35 @@ for (var attr in meta) {
               <li>
 
                 
-                <a href="index.html" title="No Sidebar" class="delay03 uppercase menu_lv1 "><span>No Sidebar</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="No Sidebar" class="delay03 uppercase menu_lv1 "><span>No Sidebar</span></a>
                 
               </li>
               
               <li>
 
                 
-                <a href="index.html" title="Default – Menu right" class="delay03 uppercase menu_lv1 "><span>Default – Menu right</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Default – Menu right" class="delay03 uppercase menu_lv1 "><span>Default – Menu right</span></a>
                 
               </li>
               
               <li>
 
                 
-                <a href="index.html" title="Minimal" class="delay03 uppercase menu_lv1 "><span>Minimal</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Minimal" class="delay03 uppercase menu_lv1 "><span>Minimal</span></a>
                 
               </li>
               
               <li>
 
                 
-                <a href="index.html" title="Classic" class="delay03 uppercase menu_lv1 "><span>Classic</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Classic" class="delay03 uppercase menu_lv1 "><span>Classic</span></a>
                 
               </li>
               
               <li>
 
                 
-                <a href="index.html" title="Mordern" class="delay03 uppercase menu_lv1 "><span>Mordern</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Mordern" class="delay03 uppercase menu_lv1 "><span>Mordern</span></a>
                 
               </li>
               
@@ -1445,7 +1472,7 @@ for (var attr in meta) {
             
             
             <h2 class="title_menu_mb relative">
-              <a href="index.html">POST FOMAT</a>
+              <a href="min-plant-store-demo.myshopify.com/index.html">POST FOMAT</a>
               
               <a href="#" title="" class="delay03 uppercase menu_lv1 "><span></span></a>
               
@@ -1456,28 +1483,28 @@ for (var attr in meta) {
               <li>
 
                 
-                <a href="index.html" title="Elementor" class="delay03 uppercase menu_lv1 "><span>Elementor</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Elementor" class="delay03 uppercase menu_lv1 "><span>Elementor</span></a>
                 
               </li>
               
               <li>
 
                 
-                <a href="index.html" title="Logo on menu" class="delay03 uppercase menu_lv1 "><span>Logo on menu</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Logo on menu" class="delay03 uppercase menu_lv1 "><span>Logo on menu</span></a>
                 
               </li>
               
               <li>
 
                 
-                <a href="index.html" title="Default – Menu Left" class="delay03 uppercase menu_lv1 "><span>Default – Menu Left</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Default – Menu Left" class="delay03 uppercase menu_lv1 "><span>Default – Menu Left</span></a>
                 
               </li>
               
               <li>
 
                 
-                <a href="index.html" title="Logo in menu" class="delay03 uppercase menu_lv1 "><span>Logo in menu</span></a>
+                <a href="min-plant-store-demo.myshopify.com/index.html" title="Logo in menu" class="delay03 uppercase menu_lv1 "><span>Logo in menu</span></a>
                 
               </li>
               
@@ -1502,7 +1529,7 @@ for (var attr in meta) {
                   <span class="icon-icon-user"></span>
                 </div>
                 <div class="mailrrr mt-3">
-                  <form method="post" action="">
+                  <form method="post" action="https://min-plant-store-demo.myshopify.com/account/login" id="customer_login" accept-charset="UTF-8"><input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" />
                   
                   <div class="form-group">
                     <input type="email"  class="form-control" name="customer[email]"  placeholder="Email adress" required>
@@ -1601,33 +1628,90 @@ for (var attr in meta) {
         <div class="login_primary CustomerLoginForm">
           <div class="login-icon-popup-login">
                       	
-              <a href="index.html">
+              <a href="min-plant-store-demo.myshopify.com/index.html">
                 
-                <h2>FLOURISH</h2>
+                <img src="cdn.shopify.com/s/files/1/0317/0687/3992/files/logo301b.png?v=1580895601" width="150" alt="Minplant - MultiPurpose Plant Store Shopify Theme">
                 
               </a>
               
           </div>
           <h2 class="title-tab-login">Great to have you back!</h2>
           <div class="mailrrr mt-3">
-            <form method="post" id="customer_login" action="">
-
+            <form method="post" action="https://min-plant-store-demo.myshopify.com/account/login" id="customer_login" accept-charset="UTF-8"><input type="hidden" name="form_type" value="customer_login" /><input type="hidden" name="utf8" value="✓" />
+            
             <div class="form-group">
-              <input type="text"  class="form-control" name="userName"  placeholder="Username" required>
+              <input type="email"  class="form-control" name="customer[email]"  placeholder="Email adress" required>
             </div>
             
             <div class="form-group">
-              <input type="password" class="form-control"  placeholder="Password" name="userPass" required>
+              <input type="password" class="form-control"  placeholder="Password" name="customer[password]" required>
             </div>
-
-            <button type="submit" class="btn btn-dark w-100" name="submitBtn" value="Log In">
+            
+            <div class="form-check">
+              
+              <a href="#recover" class="RecoverPassword">Forgot your password?</a>
+              
+            </div>
+            <button type="submit" class="btn btn-dark w-100" value="Log In">
               Log In
             </button>
             </form>
           </div>
           
           <div class="or_creat my-3">
-            <div class="box-register"><span class="or-register mr-2">Don’t have an account?</span><a href="javascript:void(0)">Register now <i class="ml-2 ti-arrow-right"></i></a></div>
+            <div class="box-register"><span class="or-register mr-2">Don’t have an account?</span><a href="javascript:void(0)" class="jsCreate_account">Register now <i class="ml-2 ti-arrow-right"></i></a></div>
+          </div>
+        </div>
+        <form method="post" action="https://min-plant-store-demo.myshopify.com/account/recover" accept-charset="UTF-8"><input type="hidden" name="form_type" value="recover_customer_password" /><input type="hidden" name="utf8" value="✓" />
+        
+        
+        
+        <div class="RecoverPasswordForm" style="display: none;">
+          <div class="block-login">
+            <span class="login-icon">
+              <i class="ti-reload"></i>
+            </span>
+            <h2 class="title_resgister title24 text-center title-form-account">Reset your password</h2>
+            <div class="form-group mb-0 row">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" placeholder="Email adress" name="customer[email]"  required>
+              </div>
+            </div>
+            <div class="text-center">
+              <input type="submit" class="btn register-button" value="Submit">
+            </div>
+            <div class="table-custom create-account">
+              <div class="box-register text-center mt-4">
+                <a class="HideRecoverPasswordLink" style="cursor: pointer;" class="color">Cancel</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+      <div class="form_register-destop">
+        <div class="login_primary">
+          <div class="login-icon register-icon">
+            <span class="ti-pencil-alt">
+            </span>
+          </div>
+          <span class="title_resgister">Register</span>
+          <div class="mailrrr mt-3">
+            <form method="post" action="https://min-plant-store-demo.myshopify.com/account" id="create_customer" accept-charset="UTF-8"><input type="hidden" name="form_type" value="create_customer" /><input type="hidden" name="utf8" value="✓" />
+            
+            <div class="form-group">
+              <input type="email" placeholder="Email address" class="form-control" name="customer[email]"  required>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="customer[password]" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-dark w-100" value="register">
+              register
+            </button>
+            </form>
+          </div>
+          <div class="or_creat my-3">
+            <div class="box-register"><a href="javascript:void(0)" class="jsBack_login">Back to login <i class="ml-3 ti-arrow-right"></i></a></div>
           </div>
         </div>
       </div>
@@ -1638,138 +1722,51 @@ for (var attr in meta) {
 <div class="bg-login-popup js-bg-login-popup">
 </div>
 
-    <!-- BEGIN content_for_index --><div id="shopify-section-1578017585177" class="shopify-section index-section"><div data-section-id="1578017585177" data-section-type="section-slideshow-v1" style="  ">
-  <div class="section-slideshow-v1 ">
-      <div class="slick-side-h1">
-          <div class="itemv-slide-h1">
-              <div class="  info-sideh1-no-effect ">
-                  <div class="picture-slideshow">
-                      <h3 style="margin-top: 120px;margin-left: 150px;">View Plants</h3>
-                      <a href="add-plants.php"><button class="btn btn-primary" style="float: right; margin-right: 200px; margin-bottom: 10px;">Add New</button></a>
-                      <div style="text-align: center">
-                          <div class="col-lg-9" style="margin-top: 40px;margin-left: 150px;">
-                              <table class="table--responsive table">
-                                  <tr>
-                                      <th>Plant Name</th>
-                                      <th>Botanical Name</th>
-                                      <th>Category</th>
-                                      <th>Price</th>
-                                      <th>Count</th>
-                                      <th>Description</th>
-                                      <th>Update</th>
-                                  </tr>
-                                  <?php
-                                  $getPlants = $con->query("select * from addplants");
-                                  while($getPlantsArray = $getPlants->fetch_array())
-                                  {
-                                      echo "<tr>";
-                                      echo "<td>$getPlantsArray[1]</td>";
-                                      echo "<td>$getPlantsArray[2]</td>";
-                                      $getCategory = $con->query("select * from addcategory where catid='$getPlantsArray[3]'");
-                                      $CategoryArray = $getCategory->fetch_array();
-                                      echo "<td>$CategoryArray[1]</td>";
-                                      echo "<td>$getPlantsArray[4]</td>";
-                                      echo "<td>$getPlantsArray[5]</td>";
-                                      echo "<td>$getPlantsArray[6]</td>";
-                                      echo "<td><a href='edit-plants.php?plant_id=$getPlantsArray[0]'>Update</a></td>";
-                                  }
-                                  ?>
-                              </table>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+    <div class="login_regester">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-6 register">
+        <h1 class="mb-0 title_login text-center"><i class="mr-3 ti-pencil-alt"></i>Register</h1>
+         <form method="post" action="" id="create_customer" accept-charset="UTF-8">
+          
+          <div class="form-group row">
+            <label for="fullName" class="col-sm-3 col-form-label">Full Name</label>
+            <div class="col-sm-9">
+              <input type="text" placeholder="Full Name" class="form-control" name="fullName"  required>
+            </div>
           </div>
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-<script>
-  jQuery(document).ready(function($) {
-  
-    $('.slick-side-h1').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3500,
-      dots: false,
-      arrows: true,
+          <div class="form-group row">
+            <label for="mobileNumber" class="col-sm-3 col-form-label">Mobile Number</label>
+            <div class="col-sm-9">
+              <input type="text" placeholder="Mobile Number" class="form-control" name="mobileNumber"  required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="emailAddress" class="col-sm-3 col-form-label">Email address</label>
+            <div class="col-sm-9">
+              <input type="email" placeholder="Email address" class="form-control" name="emailAddress"  required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="password" class="col-sm-3 col-form-label">Password</label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" name="password"  placeholder="Password" required>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <button class="btn btn-dark" value="register" name="btnRegister">
+              register
+            </button>
+          </div>
+        </form>
+         
+         
+         
+      </div> 
       
-      prevArrow:'<button type="button" class="prev-slide"><i class="fa fa-long-arrow-left"></i> </button>',
-      nextArrow:'<button type="button" class="next-slide"><i class="fa fa-long-arrow-right"></i></button>', 
-      responsive: [
-
-        {
-          breakpoint: 1200,
-          settings: {
-            infinite: true,
-            dots: true ,
-            arrows: false
-          }
-        },
-        {
-          breakpoint: 1024,
-          settings: {
-            dots: true ,
-            arrows: false
-          }
-        },
-        {
-          breakpoint:600,
-          settings: {
-            dots: true ,
-            arrows: false,
-            autoplay: true,
-          }
-        }
-      ]
-    });
-    })
-</script>
-
-<style>
-  
-  
-  
-  .button-shop-1578017585177-1:hover {
-    color : #518432 !important;
-    border-color : #518432 !important;
-    box-shadow: 0 0.5em 0.5em -0.4em #518432;
-  }
-  
-  
-  
-  .button-shop-1578017585177-0:hover {
-    color : #518432 !important;
-    border-color : #518432 !important;
-    box-shadow: 0 0.5em 0.5em -0.4em #518432;
-  }
-  
-  
-  
-</style>
-
-
-
-
-
-
-</div><div id="shopify-section-1580441555426" class="shopify-section"><div data-section-id="1580441555426" data-section-type="section-product-v3" style=" ">
-  <div class="section-product-v3">
-    <div class="container container-v2">
-      
-
       
     </div>
-
   </div>
-</div>
-
 </div>
 
     <div id="shopify-section-footer" class="shopify-section index-section"><!-- /sections/footer.liquid -->
@@ -1777,14 +1774,14 @@ for (var attr in meta) {
 
 
 
-<footer class="footer_v2">
+    <footer class="footer_v2">
     <div class="container container-v2">    
       <div class="row">
         <div class="col-lg-3 col-md-3">
           <div class="info_us">
             <div class="logo-top">
                         	
-              <a href="adminHome.php" class="logo">
+              <a href="index.php" class="logo">
                 
                 <h3>Flourish</h3>
                 
@@ -1835,8 +1832,8 @@ for (var attr in meta) {
             </div>
             <ul class="list-unstyled mb-0">
               
-              <li><a href="#">+91 9876543210</a></li>
-              <li><a href="#">risminmt10@gmail.com</a></li>
+              <li><a href="#">+91 80 86 74 06 57</a></li>
+              <li><a href="#">midhun111990@gmail.com</a></li>
               
             </ul>        
           </div>
@@ -1868,11 +1865,11 @@ for (var attr in meta) {
     
   </div>
 
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/fastclick6d29.js?v=18094824874813853145" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/fastclick6d29.js?v=18094824874813853145" type="text/javascript"></script>
   
 
 <script src="cdn.shopify.com/s/javascripts/currencies.js" type="text/javascript"></script>
-<script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/jquery.currencies.minb15e.js?v=17505776077200662322" type="text/javascript"></script>
+<script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/jquery.currencies.minb15e.js?v=17505776077200662322" type="text/javascript"></script>
 
 <script>
 
@@ -1945,7 +1942,7 @@ jQuery('.selected-currency').text(Currency.currentCurrency);
 
 
 
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/timberc946.js?v=14711222106712985598" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/timberc946.js?v=14711222106712985598" type="text/javascript"></script>
 
   
   <script>
@@ -1968,7 +1965,7 @@ jQuery('.selected-currency').text(Currency.currentCurrency);
   </script>
 
   
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/handlebars.min3010.js?v=7904446995236839729" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/handlebars.min3010.js?v=7904446995236839729" type="text/javascript"></script>
   <!-- /snippets/ajax-cart-template.liquid -->
 
 <script id="CartTemplate" type="text/template">
@@ -2064,7 +2061,7 @@ jQuery('.selected-currency').text(Currency.currentCurrency);
   
   </script>
 
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/ajax-cartcc10.js?v=17919944450714420845" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/ajax-cartcc10.js?v=17919944450714420845" type="text/javascript"></script>
   <script>
     var ajaxCartConfig = {
       cartContainer: '.enj-minicart-ajax',
@@ -2086,18 +2083,18 @@ jQuery('.selected-currency').text(Currency.currentCurrency);
   
   
   
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/bootstrap.bundle.min189d.js?v=10697909701509708116" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/slick.min0900.js?v=8094272763387678079" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/instafeed.min56d2.js?v=9003247094669648496" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/jquery.fancybox.min8e38.js?v=7852223938957104511" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/ajaxinate.mina2b8.js?v=654877121719681896" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/engo-plugins5bba.js?v=423242716952767044" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/quickview259d.js?v=909441054835319864" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/bootstrap.bundle.min189d.js?v=10697909701509708116" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/slick.min0900.js?v=8094272763387678079" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/instafeed.min56d2.js?v=9003247094669648496" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/jquery.fancybox.min8e38.js?v=7852223938957104511" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/ajaxinate.mina2b8.js?v=654877121719681896" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/engo-plugins5bba.js?v=423242716952767044" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/quickview259d.js?v=909441054835319864" type="text/javascript"></script>
   
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/collectionc5f9.js?v=11441445832597112539" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/collectionc5f9.js?v=11441445832597112539" type="text/javascript"></script>
   
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/threesixty.min2565.js?v=2885247568098202840" type="text/javascript"></script>
-  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/engo-scripts076e.js?v=3387654859428113252" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/threesixty.min2565.js?v=2885247568098202840" type="text/javascript"></script>
+  <script src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/engo-scripts076e.js?v=3387654859428113252" type="text/javascript"></script>
   
   
 
@@ -2210,7 +2207,7 @@ jQuery('.selected-currency').text(Currency.currentCurrency);
     </a>
     <div class="mini-product-item row">
       <div class="col-md-3 col-sm-3 product-image f-left">
-        <img alt="img" src="cdn.shopify.com/s/files/1/0317/0687/3992/t/3/assets/favicon6506.png?v=1644210159590862765" style="max-width:120px; height:auto"/>
+        <img alt="img" src="cdn.shopify.com/s/files/1/0317/0687/3992/t/7/assets/favicon6506.png?v=1644210159590862765" style="max-width:120px; height:auto"/>
       </div>
       <div class="col-md-9 col-sm-9">
         <div class="product-info">
@@ -2220,7 +2217,7 @@ jQuery('.selected-currency').text(Currency.currentCurrency);
         </div>
         <div class="actions">
           <button class="continue-shopping shop-button" onclick="javascript:void(0)">Continue shopping</button>
-          <button class="shop-button " onclick="window.location='cart.html'">Go to cart</button>
+          <button class="shop-button " onclick="window.location='min-plant-store-demo.myshopify.com/cart.html'">Go to cart</button>
         </div>  
       </div>
     </div>
@@ -2328,41 +2325,33 @@ Shopify.linkOptionSelectors = function(product) {
 
   
 </script>
+  
+  
+
+
+  
+  
+ 
 </body>
 
-<!-- Mirrored from min-plant-store-demo.myshopify.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jul 2021 09:34:04 GMT -->
+<!-- Mirrored from min-plant-store-demo.myshopify.com/account/register by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jul 2021 09:45:35 GMT -->
 </html>
 <?php
-if (isset($_POST['submitBtn']))
+include 'connection.php';
+if(isset($_POST['btnRegister']))
 {
-    $userName = $_POST['userName'];
-    $pass = $_POST['userPass'];
+  $fullName = $_POST['fullName'];
+  $email = $_POST['emailAddress'];
+  $mobile = $_POST['mobileNumber'];
+  $pass = $_POST['password'];
 
-    $res=mysqli_query($con,"select * from login where username='$userName' and password='$pass'");
-    if(mysqli_num_rows($res)>0){
-
-        $row=mysqli_fetch_array($res);
-        $type=$row[3];
-
-        $_SESSION['username']=$userName;
-
-        if($type=='admin'){
-            echo "<script>document.location='adminHome.php'</script>";
-
-        }
-        else if($type=='student'){
-            $_SESSION['student-name'] = $row['username'];
-            echo "<script>document.location='studentportal.php'</script>";
-        }
-        else if($type=='delteam'){
-            echo "<script>document.location='deliveryhome.php'</script>";
-        }
-        else{
-            echo "<script>alert('not valid ')</script>";
-        }
-    }
-    else
+  $createAccount = $con->query("insert into users(user_name,user_mail,user_mob) values ('$fullName','$email','$mobile')");
+  if($createAccount)
+  {
+    $createLogin = $con->query("insert into login(username,password,type) values ('$email','$pass','user')");
+    if($createLogin)
     {
-        echo "<script>alert('invalid username or password')</script>";
+      echo "<script>window.location='index.php'</script>";
     }
+  }
 }

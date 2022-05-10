@@ -597,7 +597,7 @@ for (var attr in meta) {
       <div class="col-lg-2">
         <div class="logo">
           <div class="center logo delay05">          	
-              <a href="adminHome.php">
+              <a href="userHome.php">
                   <img src="cdn.shopify.com/s/files/1/0317/0687/3992/files/logo301b.png?v=1580895601" width="160" alt="Minplant - MultiPurpose Plant Store Shopify Theme">
               </a>
           </div>
@@ -609,21 +609,19 @@ for (var attr in meta) {
   <div class="collapse navbar-collapse">
   <ul class="navbar-nav">
     <li class="nav-item dropdown">
-        <a href="adminHome.php" class="delay03 relative nav-link menu_lv1 ">Home</a>
+        <a href="userHome.php" class="delay03 relative nav-link menu_lv1 ">Home</a>
     </li>
     <li class="nav-item dropdown">
-        <a href="delivery-team.php"  class="delay03  relative nav-link menu_lv1 ">Delivery Team</a>
+        <a href="userCart.php"  class="delay03  relative nav-link menu_lv1 ">My Cart</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a href="userOrders.php"  class="delay03  relative nav-link menu_lv1 ">My Orders</a>
     </li>
     
     <li class="nav-item dropdown">
-        <a href="category.php"  class="delay03 relative  nav-link menu_lv1 ">Category</a>
+        <a href="userPlants.php"  class="delay03 relative  nav-link menu_lv1 ">Plants</a>
     </li>
-    <li class="nav-item dropdown">
-        <a href="plants.php"  class="delay03 relative  nav-link menu_lv1 ">Plants</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a href="reports.php"  class="delay03 relative  nav-link menu_lv1 ">Report</a>
-    </li>
+   
     <li class="nav-item dropdown">
         <a href="logout.php"  class="delay03 relative  nav-link menu_lv1 ">Logout</a>
     </li>
@@ -1640,51 +1638,77 @@ for (var attr in meta) {
 
     <!-- BEGIN content_for_index --><div id="shopify-section-1578017585177" class="shopify-section index-section"><div data-section-id="1578017585177" data-section-type="section-slideshow-v1" style="  ">
   <div class="section-slideshow-v1 ">
-      <div class="slick-side-h1">
-          <div class="itemv-slide-h1">
-              <div class="  info-sideh1-no-effect ">
-                  <div class="picture-slideshow">
-                      <h3 style="margin-top: 120px;margin-left: 150px;">View Plants</h3>
-                      <a href="add-plants.php"><button class="btn btn-primary" style="float: right; margin-right: 200px; margin-bottom: 10px;">Add New</button></a>
-                      <div style="text-align: center">
-                          <div class="col-lg-9" style="margin-top: 40px;margin-left: 150px;">
-                              <table class="table--responsive table">
-                                  <tr>
-                                      <th>Plant Name</th>
-                                      <th>Botanical Name</th>
-                                      <th>Category</th>
-                                      <th>Price</th>
-                                      <th>Count</th>
-                                      <th>Description</th>
-                                      <th>Update</th>
-                                  </tr>
-                                  <?php
-                                  $getPlants = $con->query("select * from addplants");
-                                  while($getPlantsArray = $getPlants->fetch_array())
-                                  {
-                                      echo "<tr>";
-                                      echo "<td>$getPlantsArray[1]</td>";
-                                      echo "<td>$getPlantsArray[2]</td>";
-                                      $getCategory = $con->query("select * from addcategory where catid='$getPlantsArray[3]'");
-                                      $CategoryArray = $getCategory->fetch_array();
-                                      echo "<td>$CategoryArray[1]</td>";
-                                      echo "<td>$getPlantsArray[4]</td>";
-                                      echo "<td>$getPlantsArray[5]</td>";
-                                      echo "<td>$getPlantsArray[6]</td>";
-                                      echo "<td><a href='edit-plants.php?plant_id=$getPlantsArray[0]'>Update</a></td>";
-                                  }
-                                  ?>
-                              </table>
-                          </div>
-                      </div>
-                  </div>
+      <div class="slick-side-h1">       
+        
+        
+        
+        <div class="itemv-slide-h1">
+          <div class="  info-sideh1-no-effect ">
+            <div class="picture-slideshow">
+              
+              <a href="#">
+              <img class="w-100" src="cdn.shopify.com/s/files/1/0317/0687/3992/files/slideshow-v1-1d395.jpg?v=1580454830" class="img-responsive img_slideh1" alt="">
+              </a>
+              
+            </div>
+         
+            <div class=" box-content   " >
+              
+              <div class="box-info box-info-1578017585177-1">
+                <div class="box-title">
+                  
+                  <h3 class="titlebig mb-0" style="color:#518432;">Artificial Plants</h3>
+                   
+                </div>
+                <div class="box-title2">
+                  
+                  <h3 class="title-small mb-0" style="color:#000000;">The Bamboo Planter Pot is made</h3>
+                  
+                </div>
+
+                        
               </div>
+              
+            </div>
           </div>
+        </div>
+        
+        
+        
+        <div class="itemv-slide-h1">
+          <div class="  info-sideh1-no-effect ">
+            <div class="picture-slideshow">
+              
+              <a href="#">
+              <img class="w-100" src="cdn.shopify.com/s/files/1/0317/0687/3992/files/slideshow-v1-22966.jpg?v=1580454873" class="img-responsive img_slideh1" alt="">
+              </a>
+              
+            </div>
+         
+            <div class=" box-content   " >
+              
+              <div class="box-info box-info-1578017585177-0">
+                <div class="box-title">
+                  
+                  <h3 class="titlebig mb-0" style="color:#518432;">Plant & Flowers</h3>
+                   
+                </div>
+                <div class="box-title2">
+                  
+                  <h3 class="title-small mb-0" style="color:#000000;">The Bamboo Planter Pot is made</h3>
+                  
+                </div>
 
-
-
-
-
+                        
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
       </div>
   </div>
 </div>
@@ -1784,7 +1808,7 @@ for (var attr in meta) {
           <div class="info_us">
             <div class="logo-top">
                         	
-              <a href="adminHome.php" class="logo">
+              <a href="index.php" class="logo">
                 
                 <h3>Flourish</h3>
                 

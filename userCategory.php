@@ -193,7 +193,7 @@ for (var attr in meta) {
   };
 
   var hasLoggedConversion = function(token) {
-    if (token) {
+    if (token) {  
       return document.cookie.indexOf('loggedConversion=' + token) !== -1;
     }
     return false;
@@ -597,7 +597,7 @@ for (var attr in meta) {
       <div class="col-lg-2">
         <div class="logo">
           <div class="center logo delay05">          	
-              <a href="adminHome.php">
+              <a href="userHome.php">
                   <img src="cdn.shopify.com/s/files/1/0317/0687/3992/files/logo301b.png?v=1580895601" width="160" alt="Minplant - MultiPurpose Plant Store Shopify Theme">
               </a>
           </div>
@@ -609,17 +609,16 @@ for (var attr in meta) {
   <div class="collapse navbar-collapse">
   <ul class="navbar-nav">
     <li class="nav-item dropdown">
-        <a href="adminHome.php" class="delay03 relative nav-link menu_lv1 ">Home</a>
+        <a href="userHome.php" class="delay03 relative nav-link menu_lv1 ">Home</a>
     </li>
     <li class="nav-item dropdown">
-        <a href="delivery-team.php"  class="delay03  relative nav-link menu_lv1 ">Delivery Team</a>
-    </li>
-    
-    <li class="nav-item dropdown">
-        <a href="category.php"  class="delay03 relative  nav-link menu_lv1 ">Category</a>
+        <a href="userOrders.php"  class="delay03  relative nav-link menu_lv1 ">My Orders</a>
     </li>
     <li class="nav-item dropdown">
-        <a href="plants.php"  class="delay03 relative  nav-link menu_lv1 ">Plants</a>
+        <a href="userCategory.php"  class="delay03 relative  nav-link menu_lv1 ">Category</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a href="userPlants.php"  class="delay03 relative  nav-link menu_lv1 ">Plants</a>
     </li>
     <li class="nav-item dropdown">
         <a href="reports.php"  class="delay03 relative  nav-link menu_lv1 ">Report</a>
@@ -1644,34 +1643,21 @@ for (var attr in meta) {
           <div class="itemv-slide-h1">
               <div class="  info-sideh1-no-effect ">
                   <div class="picture-slideshow">
-                      <h3 style="margin-top: 120px;margin-left: 150px;">View Plants</h3>
-                      <a href="add-plants.php"><button class="btn btn-primary" style="float: right; margin-right: 200px; margin-bottom: 10px;">Add New</button></a>
+                      <h3 style="margin-top: 120px;margin-left: 150px;">View Category</h3>
                       <div style="text-align: center">
-                          <div class="col-lg-9" style="margin-top: 40px;margin-left: 150px;">
+                          <div class="col-md-6" style="margin-top: 40px;margin-left: 150px;">
                               <table class="table--responsive table">
                                   <tr>
-                                      <th>Plant Name</th>
-                                      <th>Botanical Name</th>
                                       <th>Category</th>
-                                      <th>Price</th>
-                                      <th>Count</th>
-                                      <th>Description</th>
                                       <th>Update</th>
                                   </tr>
                                   <?php
-                                  $getPlants = $con->query("select * from addplants");
-                                  while($getPlantsArray = $getPlants->fetch_array())
+                                  $getCategory = $con->query("select * from addcategory");
+                                  while($getCategoryArray = $getCategory->fetch_array())
                                   {
                                       echo "<tr>";
-                                      echo "<td>$getPlantsArray[1]</td>";
-                                      echo "<td>$getPlantsArray[2]</td>";
-                                      $getCategory = $con->query("select * from addcategory where catid='$getPlantsArray[3]'");
-                                      $CategoryArray = $getCategory->fetch_array();
-                                      echo "<td>$CategoryArray[1]</td>";
-                                      echo "<td>$getPlantsArray[4]</td>";
-                                      echo "<td>$getPlantsArray[5]</td>";
-                                      echo "<td>$getPlantsArray[6]</td>";
-                                      echo "<td><a href='edit-plants.php?plant_id=$getPlantsArray[0]'>Update</a></td>";
+                                      echo "<td>$getCategoryArray[1]</td>";
+                                      echo "<td><a href='edit-category.php?cat_id=$getCategoryArray[0]'>Update</a></td>";
                                   }
                                   ?>
                               </table>
@@ -1835,8 +1821,8 @@ for (var attr in meta) {
             </div>
             <ul class="list-unstyled mb-0">
               
-              <li><a href="#">+91 9876543210</a></li>
-              <li><a href="#">risminmt10@gmail.com</a></li>
+              <li><a href="#">+91 80 86 74 06 57</a></li>
+              <li><a href="#">midhun111990@gmail.com</a></li>
               
             </ul>        
           </div>
