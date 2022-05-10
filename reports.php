@@ -614,7 +614,7 @@ for (var attr in meta) {
     <li class="nav-item dropdown">
         <a href="delivery-team.php"  class="delay03  relative nav-link menu_lv1 ">Delivery Team</a>
     </li>
-   
+    
     <li class="nav-item dropdown">
         <a href="category.php"  class="delay03 relative  nav-link menu_lv1 ">Category</a>
     </li>
@@ -1639,71 +1639,80 @@ for (var attr in meta) {
 </div>
 
     <!-- BEGIN content_for_index --><div id="shopify-section-1578017585177" class="shopify-section index-section"><div data-section-id="1578017585177" data-section-type="section-slideshow-v1" style="  ">
-                <section id="content">
-                    <div class="content-page contact-page">
-                        <div class="container container-v2">
-                        </div>
-                        <form method="post" action="" id="contact_form"class="contact-form">
-                        <div class="container" style="margin-top: 70px;">
-                            <div class="contact-form">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h3><strong>Add Delivery Team</strong></h3>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-6">
-                                        <br><div class="contact-form-page">
-                                                <div class="contact-form">
-                                                    <p class="contact-name">
-                                                        <input class="" placeholder="First Name *" type="text" id="firstName" name="firstName" required>
-                                                    </p>
-                                                    <p class="contact-email">
-                                                        <input class="" placeholder="Email Address *" type="email" id="emailAddress" name="emailAddress" required>
-                                                    </p>
-                                                    <p class="contact-subject">
-
-                                                        <label>Select gender: </label>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <label>Male<input type="radio" name="gender" id="gender" value="male"></label>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <label>Female<input type="radio" name="gender" id="gender" value="female"></label>
-                                                    </p>
-                                                    <p class="contact-subject">
-                                                        <input class="" placeholder="dd-mm-yyyy" type="date" id="dob" name="dob" required>
-                                                    </p>
-                                                    <p class="contact-subject">
-                                                        <input class="" placeholder="Mobile Number *" type="text" id="mobile" name="mobile" required>
-                                                    </p>
-                                                    <p class="contact-submit">
-                                                        <input  class="shop-button" type="submit" name="addDel" value="Add">
-                                                    </p>
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-12">
-                                        <br><div class="contact-form-page">
-                                                <div class="contact-form">
-                                                    <p class="contact-name">
-                                                        <input class="" placeholder="Last Name *" type="text" id="lastName" name="lastName" required>
-                                                    </p>
-                                                    <p class="contact-email">
-                                                        <input class="" placeholder="Password *" type="password" id="pass" name="pass" required>
-                                                    </p>
-                                                    <p class="contact-message">
-                                                        <textarea class="" placeholder="Address *" cols="30" rows="7" id="homeAddress" name="homeAddress" required></textarea>
-                                                    </p>
-                                                </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
+  <div class="section-slideshow-v1 ">
+      <div class="slick-side-h1">
+          <div class="itemv-slide-h1">
+              <div class="  info-sideh1-no-effect ">
+                  <div class="picture-slideshow">
+                      <h3 style="margin-top: 120px;margin-left: 150px;">View Plants</h3>
+                      <div style="text-align: start;">
+                          <form action="" method="POST">
+                            <div class="col-lg-12">
+                              <div class="row">
+                              <div class="col-lg-4" style="margin-top: 40px;margin-left: 150px;">
+                                <select class="form-control select2" name="plantId">
+                                  <option value="">Select Plant</option>
+                                  <?php
+                                    $getPlants = $con->query("select * from addplants");
+                                    while($getPlantsArray = $getPlants->fetch_array())
+                                    {
+                                      echo "<option value='$getPlantsArray[0]'>$getPlantsArray[1]</option>";
+                                    } 
+                                  ?>
+                                </select>
+                              </div>
+                              <div class="col-lg-6" style="margin-top: 40px;text-align: left;">
+                              <input type="submit" name="submit" value="Get Details" class="btn btn-success">
                             </div>
+                            </div>
+                            </div>
+                          </form>
+                      </div>
+                      <div style="text-align: center">
+                          <div class="col-lg-9" style="margin-top: 40px;margin-left: 150px;">
+                              <table class="table--responsive table">
+                                  <tr>
+                                      <th>Plant Name</th>
+                                      <th>Botanical Name</th>
+                                      <th>Category</th>
+                                      <th>Total Sold</th>
+                                      <th>Total Amount</th>
+                                  </tr>
+                                  <?php
+                                  if(isset($_POST['submit']))
+                                  {
+                                    $plant = $_POST['plantId'];
+                                    if($plant != '')
+                                    {
+                                      $getPlantDetails = $con->query("select * from addplants where plantid='$plant'");
+                                      $plantDetails = $getPlantDetails->fetch_array();
+                                      $getOrders = $con->query("select count(*) from plant_orders where plant_id='$plant'");
+                                      $orderDetails = $getOrders->fetch_array();
+                                      echo "<tr>";
+                                      echo "<td>$plantDetails[1]</td>";
+                                      echo "<td>$plantDetails[2]</td>";
+                                      $getCategory = $con->query("select * from addcategory where catid='$plantDetails[3]'");
+                                      $CategoryArray = $getCategory->fetch_array();
+                                      echo "<td>$CategoryArray[1]</td>";   
+                                      echo "<td>$orderDetails[0]</td>";
+                                      $amount = (int) $orderDetails[0] * (int) $plantDetails[4];   
+                                      echo "<td>$amount</td>";
+                                    }
+                                  }
+                                  ?>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
 
-                        </div>
-                        </form>
-                    </div>
-                </section>
+
+
+
+      </div>
+  </div>
 </div>
 
 <script>
@@ -2350,30 +2359,36 @@ Shopify.linkOptionSelectors = function(product) {
 <!-- Mirrored from min-plant-store-demo.myshopify.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jul 2021 09:34:04 GMT -->
 </html>
 <?php
-if (isset($_POST['addDel']))
+if (isset($_POST['submitBtn']))
 {
-    $firstname=$_POST['firstName'];
-    $lname=$_POST['lastName'];
-    $email=$_POST['emailAddress'];
-    $pass=$_POST['pass'];
-    $gender=$_POST['gender'];
-    $address=$_POST['homeAddress'];
-    $dob=$_POST['dob'];
-    $contact=$_POST['mobile'];
-    $utype="delteam";
+    $userName = $_POST['userName'];
+    $pass = $_POST['userPass'];
 
-    $addDelivery = $con->query("insert into adddelteam(First_name,Last_name,email,password,gender,address,dob,contact,type) values ('$firstname','$lname','$email','$pass','$gender','$address','$dob','$contact','deliveryteam')");
-    if($addDelivery)
+    $res=mysqli_query($con,"select * from login where username='$userName' and password='$pass'");
+    if(mysqli_num_rows($res)>0){
+
+        $row=mysqli_fetch_array($res);
+        $type=$row[3];
+
+        $_SESSION['username']=$userName;
+
+        if($type=='admin'){
+            echo "<script>document.location='adminHome.php'</script>";
+
+        }
+        else if($type=='student'){
+            $_SESSION['student-name'] = $row['username'];
+            echo "<script>document.location='studentportal.php'</script>";
+        }
+        else if($type=='delteam'){
+            echo "<script>document.location='deliveryhome.php'</script>";
+        }
+        else{
+            echo "<script>alert('not valid ')</script>";
+        }
+    }
+    else
     {
-		$addLogin = $con->query("insert into login(username,password,type) values ('$email','$pass','$utype')");
-		if($addLogin)
-		{
-			echo "<script>alert('Delivery team added successfully...')</script>";
-			echo "<script>window.location='delivery-team.php'</script>";
-		}
-		else
-		{
-			echo "<script>alert('Some error occurred...')</script>";
-		}
+        echo "<script>alert('invalid username or password')</script>";
     }
 }

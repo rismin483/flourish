@@ -619,16 +619,13 @@ for (var attr in meta) {
         <a href="category.php"  class="delay03 relative  nav-link menu_lv1 ">Category</a>
     </li>
     <li class="nav-item dropdown">
-        <a href="#"  class="delay03 relative  nav-link menu_lv1 ">Users</a>
-    </li>
-    <li class="nav-item dropdown">
         <a href="plants.php"  class="delay03 relative  nav-link menu_lv1 ">Plants</a>
     </li>
     <li class="nav-item dropdown">
-        <a href="#"  class="delay03 relative  nav-link menu_lv1 ">Report</a>
+        <a href="reports.php"  class="delay03 relative  nav-link menu_lv1 ">Report</a>
     </li>
     <li class="nav-item dropdown">
-        <a href="#"  class="delay03 relative  nav-link menu_lv1 ">Notification</a>
+        <a href="logout.php"  class="delay03 relative  nav-link menu_lv1 ">Logout</a>
     </li>
   </ul>
   </div>
@@ -1840,8 +1837,8 @@ for (var attr in meta) {
             </div>
             <ul class="list-unstyled mb-0">
               
-              <li><a href="#">+91 80 86 74 06 57</a></li>
-              <li><a href="#">midhun111990@gmail.com</a></li>
+              <li><a href="#">+91 9876543210</a></li>
+              <li><a href="#">risminmt10@gmail.com</a></li>
               
             </ul>        
           </div>

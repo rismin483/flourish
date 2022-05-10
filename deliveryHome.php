@@ -597,7 +597,7 @@ for (var attr in meta) {
       <div class="col-lg-2">
         <div class="logo">
           <div class="center logo delay05">          	
-              <a href="adminHome.php">
+              <a href="deliveryHome.php">
                   <img src="cdn.shopify.com/s/files/1/0317/0687/3992/files/logo301b.png?v=1580895601" width="160" alt="Minplant - MultiPurpose Plant Store Shopify Theme">
               </a>
           </div>
@@ -609,21 +609,12 @@ for (var attr in meta) {
   <div class="collapse navbar-collapse">
   <ul class="navbar-nav">
     <li class="nav-item dropdown">
-        <a href="adminHome.php" class="delay03 relative nav-link menu_lv1 ">Home</a>
+        <a href="deliveryHome.php" class="delay03 relative nav-link menu_lv1 ">Home</a>
     </li>
     <li class="nav-item dropdown">
-        <a href="delivery-team.php"  class="delay03  relative nav-link menu_lv1 ">Delivery Team</a>
+        <a href="#"  class="delay03  relative nav-link menu_lv1 ">My Orders</a>
     </li>
    
-    <li class="nav-item dropdown">
-        <a href="category.php"  class="delay03 relative  nav-link menu_lv1 ">Category</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a href="plants.php"  class="delay03 relative  nav-link menu_lv1 ">Plants</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a href="reports.php"  class="delay03 relative  nav-link menu_lv1 ">Report</a>
-    </li>
     <li class="nav-item dropdown">
         <a href="logout.php"  class="delay03 relative  nav-link menu_lv1 ">Logout</a>
     </li>
@@ -1639,71 +1630,80 @@ for (var attr in meta) {
 </div>
 
     <!-- BEGIN content_for_index --><div id="shopify-section-1578017585177" class="shopify-section index-section"><div data-section-id="1578017585177" data-section-type="section-slideshow-v1" style="  ">
-                <section id="content">
-                    <div class="content-page contact-page">
-                        <div class="container container-v2">
-                        </div>
-                        <form method="post" action="" id="contact_form"class="contact-form">
-                        <div class="container" style="margin-top: 70px;">
-                            <div class="contact-form">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h3><strong>Add Delivery Team</strong></h3>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-6">
-                                        <br><div class="contact-form-page">
-                                                <div class="contact-form">
-                                                    <p class="contact-name">
-                                                        <input class="" placeholder="First Name *" type="text" id="firstName" name="firstName" required>
-                                                    </p>
-                                                    <p class="contact-email">
-                                                        <input class="" placeholder="Email Address *" type="email" id="emailAddress" name="emailAddress" required>
-                                                    </p>
-                                                    <p class="contact-subject">
+  <div class="section-slideshow-v1 ">
+      <div class="slick-side-h1">       
+        
+        
+        
+        <div class="itemv-slide-h1">
+          <div class="  info-sideh1-no-effect ">
+            <div class="picture-slideshow">
+              
+              <a href="#">
+              <img class="w-100" src="cdn.shopify.com/s/files/1/0317/0687/3992/files/slideshow-v1-1d395.jpg?v=1580454830" class="img-responsive img_slideh1" alt="">
+              </a>
+              
+            </div>
+         
+            <div class=" box-content   " >
+              
+              <div class="box-info box-info-1578017585177-1">
+                <div class="box-title">
+                  
+                  <h3 class="titlebig mb-0" style="color:#518432;">Artificial Plants</h3>
+                   
+                </div>
+                <div class="box-title2">
+                  
+                  <h3 class="title-small mb-0" style="color:#000000;">The Bamboo Planter Pot is made</h3>
+                  
+                </div>
 
-                                                        <label>Select gender: </label>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <label>Male<input type="radio" name="gender" id="gender" value="male"></label>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <label>Female<input type="radio" name="gender" id="gender" value="female"></label>
-                                                    </p>
-                                                    <p class="contact-subject">
-                                                        <input class="" placeholder="dd-mm-yyyy" type="date" id="dob" name="dob" required>
-                                                    </p>
-                                                    <p class="contact-subject">
-                                                        <input class="" placeholder="Mobile Number *" type="text" id="mobile" name="mobile" required>
-                                                    </p>
-                                                    <p class="contact-submit">
-                                                        <input  class="shop-button" type="submit" name="addDel" value="Add">
-                                                    </p>
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-12">
-                                        <br><div class="contact-form-page">
-                                                <div class="contact-form">
-                                                    <p class="contact-name">
-                                                        <input class="" placeholder="Last Name *" type="text" id="lastName" name="lastName" required>
-                                                    </p>
-                                                    <p class="contact-email">
-                                                        <input class="" placeholder="Password *" type="password" id="pass" name="pass" required>
-                                                    </p>
-                                                    <p class="contact-message">
-                                                        <textarea class="" placeholder="Address *" cols="30" rows="7" id="homeAddress" name="homeAddress" required></textarea>
-                                                    </p>
-                                                </div>
-                                        </div>
-                                    </div>
+                        
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        <div class="itemv-slide-h1">
+          <div class="  info-sideh1-no-effect ">
+            <div class="picture-slideshow">
+              
+              <a href="#">
+              <img class="w-100" src="cdn.shopify.com/s/files/1/0317/0687/3992/files/slideshow-v1-22966.jpg?v=1580454873" class="img-responsive img_slideh1" alt="">
+              </a>
+              
+            </div>
+         
+            <div class=" box-content   " >
+              
+              <div class="box-info box-info-1578017585177-0">
+                <div class="box-title">
+                  
+                  <h3 class="titlebig mb-0" style="color:#518432;">Plant & Flowers</h3>
+                   
+                </div>
+                <div class="box-title2">
+                  
+                  <h3 class="title-small mb-0" style="color:#000000;">The Bamboo Planter Pot is made</h3>
+                  
+                </div>
 
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                        </form>
-                    </div>
-                </section>
+                        
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+      </div>
+  </div>
 </div>
 
 <script>
@@ -1801,7 +1801,7 @@ for (var attr in meta) {
           <div class="info_us">
             <div class="logo-top">
                         	
-              <a href="adminHome.php" class="logo">
+              <a href="index.php" class="logo">
                 
                 <h3>Flourish</h3>
                 
@@ -2350,30 +2350,36 @@ Shopify.linkOptionSelectors = function(product) {
 <!-- Mirrored from min-plant-store-demo.myshopify.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Jul 2021 09:34:04 GMT -->
 </html>
 <?php
-if (isset($_POST['addDel']))
+if (isset($_POST['submitBtn']))
 {
-    $firstname=$_POST['firstName'];
-    $lname=$_POST['lastName'];
-    $email=$_POST['emailAddress'];
-    $pass=$_POST['pass'];
-    $gender=$_POST['gender'];
-    $address=$_POST['homeAddress'];
-    $dob=$_POST['dob'];
-    $contact=$_POST['mobile'];
-    $utype="delteam";
+    $userName = $_POST['userName'];
+    $pass = $_POST['userPass'];
 
-    $addDelivery = $con->query("insert into adddelteam(First_name,Last_name,email,password,gender,address,dob,contact,type) values ('$firstname','$lname','$email','$pass','$gender','$address','$dob','$contact','deliveryteam')");
-    if($addDelivery)
+    $res=mysqli_query($con,"select * from login where username='$userName' and password='$pass'");
+    if(mysqli_num_rows($res)>0){
+
+        $row=mysqli_fetch_array($res);
+        $type=$row[3];
+
+        $_SESSION['username']=$userName;
+
+        if($type=='admin'){
+            echo "<script>document.location='adminHome.php'</script>";
+
+        }
+        else if($type=='student'){
+            $_SESSION['student-name'] = $row['username'];
+            echo "<script>document.location='studentportal.php'</script>";
+        }
+        else if($type=='delteam'){
+            echo "<script>document.location='deliveryhome.php'</script>";
+        }
+        else{
+            echo "<script>alert('not valid ')</script>";
+        }
+    }
+    else
     {
-		$addLogin = $con->query("insert into login(username,password,type) values ('$email','$pass','$utype')");
-		if($addLogin)
-		{
-			echo "<script>alert('Delivery team added successfully...')</script>";
-			echo "<script>window.location='delivery-team.php'</script>";
-		}
-		else
-		{
-			echo "<script>alert('Some error occurred...')</script>";
-		}
+        echo "<script>alert('invalid username or password')</script>";
     }
 }
